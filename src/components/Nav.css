@@ -1,0 +1,16 @@
+.container-nav{
+  background-color: rgba(213, 213, 213, 0.5);
+  -webkit-backdrop-filter: blur(2em);
+  backdrop-filter: blur(4em);
+  padding: 17px;
+  position: relative;
+}
+
+.title-nav{
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  font-weight: bold;
+  color: rgb(25, 160, 115);
+  font-size: 22px;
+}

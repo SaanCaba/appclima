@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100vh;
+  background-image: url(https://i.pinimg.com/originals/5f/b1/17/5fb117c6ba9cba9ca1dd95912da83fd7.jpg);
+  background-size: 100% 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.busca{
+  font-weight: bold;
+  margin-top: 20%;
+  color: white;
+  animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0%{
+    margin-top: 20%;
+  }
+  50%{
+    margin-top: 22%;
+  }
+  100%{
+    margin-top:20%
+  }
+}

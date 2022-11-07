@@ -1,0 +1,9 @@
+.cards {
+  margin-top: 30px;
+  margin-left: 455px;
+  margin-right: 445px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black;
+}
